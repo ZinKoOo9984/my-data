@@ -1,0 +1,73 @@
+#home {
+    /* margin-top: 150px; */
+    align-items: center;
+    /* height: 63vh; */
+    display: flex;
+    justify-content: start;
+    margin-left: 80px;
+    padding-top: 180px;
+}
+*{
+    color:white;
+}
+#main{
+    background-image: url(ggg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-fluid{
+    /* margin: 100px 0 0 200px; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+
+}
+.container-fluid img{
+    width: 20%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* border-radius: 10px; */
+    /* transition: all ease-in-out 0.5s; */
+}
+/* .container-fluid img:hover { */
+    /* width: 70%; */
+    /* height: 100%; */
+    /* align-items: center; */
+/* } */
+#photo .card{
+    width: 270px;
+    height: auto;
+    text-align: center;
+    background-color: burlywood;
+    box-shadow: 4px 4px 10px rgb(16, 16, 16);
+}
+#photo .main img{
+    width: 100%;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    /* height: 50%; */
+}
+#photo .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+}
+.buy{
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px gray;
+    width: 250px;
+    height: 300px;
+    margin-left: 60px;
+    background-color: antiquewhite;
+}
+.trip{
+    border-radius: 5px;
+    height: 120px;
+
+}
